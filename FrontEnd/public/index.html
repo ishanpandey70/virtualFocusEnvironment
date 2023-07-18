@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Environment</title>
+    <link id="css" rel="stylesheet" href="..\src\assets\css\styles.css"> 
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <div class ="container">
+        <div class ="buttonsBar">
+            <button class ="ChoiceButtons" id="work">🎯Work Session</button>
+            <button class ="ChoiceButtons" id="shortBreak">🚶🏿Short Break</button>
+            <button class ="ChoiceButtons" id="longBreak">🍎Long Break</button>
+        </div>
+        <div class="timer">
+            
+            <span id = "minutes"></span>:<span id='seconds'></span>
+            
+        </div>
+        <div class="actionButtons">
+            <button class="dark" id="darkBtn">
+                <i class="icon" ></i>
+            </button>
+            <button class="playPause">
+                <i class="icon" ></i>
+            </button>
+            <button class ="restart" id="reset">
+                <i class="icon"></i>
+            </button>
+            <button class ="posture" id="posture">
+                <i class ="icon"></i>
+            </button>
+           
+        </div>
+        <div id="postureResult"></div>
+    </div>c
+    <script src="../src/assets/js/script.js"></script>
+</body>
+</html>

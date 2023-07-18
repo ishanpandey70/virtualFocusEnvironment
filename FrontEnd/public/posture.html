@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Posture Scorer</title>
+    <style>
+        #videoElement {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #canvasElement {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.9.0/dist/tf.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet@2.2.1/dist/posenet.js"></script>
+</head>
+<body>
+    <div style="position: relative;">
+        <video id="videoElement" width="640" height="480" autoplay></video>
+        <canvas id="canvasElement" width="640" height="480"></canvas>
+    </div>
+
+    <script src="../src/assets/js/postureScorer.js"></script>
+</body>
+</html>
+  
